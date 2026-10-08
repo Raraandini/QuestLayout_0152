@@ -64,8 +64,14 @@ fun ActivitasPertama(modifier: Modifier) {
                         modifier = Modifier.padding(top = 10.dp)
                     )
                 }
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                ) {}
 
-            }
+                }
+
+
         }
 
     }
