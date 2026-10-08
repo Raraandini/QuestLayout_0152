@@ -15,6 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
     Column(
@@ -23,8 +24,14 @@ fun ActivitasPertama(modifier: Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
-            stringResource(R.string.prodi),
-            fontSize = 35.sp,
-            fontWeight = FontWeight.Bold,
+                stringResource(R.string.prodi),
+                fontSize = 35.sp,
+                fontWeight = FontWeight.Bold,
         )
-    }}
+        Text(
+            stringResource(R.string.univ),
+            fontSize = 22.sp
+        )
+        
+    }
+}
